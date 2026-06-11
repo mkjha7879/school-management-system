@@ -1,6 +1,8 @@
 import { auth } from '../firebase'
 
-const API_BASE = '/api'
+// In dev this is proxied to the backend; in production set VITE_API_URL
+// to your hosted backend, e.g. https://your-backend.onrender.com/api
+const API_BASE = import.meta.env.VITE_API_URL ?? '/api'
 
 export class ApiError extends Error {
   status: number
