@@ -1,0 +1,6 @@
+firebase:
+  database-url: https://school-management-system-79732-default-rtdb.firebaseio.com
+
+admin:
+  email: ${ADMIN_EMAIL:admin@school.com}
+  password: ${ADMIN_PASSWORD:admin123}

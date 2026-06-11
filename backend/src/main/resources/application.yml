@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: school-management
+  profiles:
+    default: local
+
+firebase:
+  credentials-path: ${FIREBASE_CREDENTIALS_PATH:classpath:firebase-service-account.json}
+
+cors:
+  allowed-origins: http://localhost:5173,http://localhost:3000

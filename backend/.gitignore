@@ -1,0 +1,5 @@
+target/
+.firebase/
+firebase-service-account.json
+*.iml
+.idea/
